@@ -1,0 +1,15 @@
+{
+  "name": "bgmi-weapons-showcase-site",
+  "version": "1.0.0",
+  "description": "Using HTML, CSS, and JavaScript, this project delivers an immersive experience, allowing users to explore and learn about various BGMI weapons. It features a user-friendly interface and detailed information to help users understand the game's available arsenal.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
